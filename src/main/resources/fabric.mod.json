@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "spearswap",
+  "version": "1.0.0",
+  "name": "SpearSwap",
+  "description": "Press Mouse Button 5 to swap to slot 3, attack, then swap back to slot 1.",
+  "authors": ["r1shanfr"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": ["com.spearswap.SpearSwapMod"],
+    "client": ["com.spearswap.SpearSwapClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "1.21.11"
+  }
+}
